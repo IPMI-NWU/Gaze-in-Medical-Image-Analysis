@@ -108,7 +108,7 @@ Right: The distribution of papers across different organs; less frequently studi
 
 ## Part 2: Gaze for Medical Image Understanding
 
-### 2.1 Computer-Aided Diagnosis
+### 2.1 Classification
 
 * Multi-Task SonoEyeNet: Detection of Fetal Standardized Planes Assisted by Generated Sonographer Attention Maps.  
 **Medical Image Computing and Computer Assisted Intervention (MICCAI) (2018)** 
