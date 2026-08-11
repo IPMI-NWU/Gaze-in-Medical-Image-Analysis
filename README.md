@@ -9,14 +9,20 @@ The review provides a comprehensive overview of the emerging interdisciplinary a
 Middle: The distribution of papers in the survey across imaging modalities; modalities with relatively few studies, such as PET, are grouped under “Others.”
 Right: The distribution of papers across different organs; less frequently studied organs, including the heart, vessels, and pancreas, are grouped under “Others.”
 
-![image](src/image2.png)
+![image](src/image5.png)
 > A taxonomy of gaze-based studies in the field of medical imaging.
 
-![image](src/image4.png)
-> A brief overview of gaze utilization pipelines across various applications.
 
-## Part 1: Gaze Modeling and Prediction
-### 1.1 Visual Saliency Prediction
+![image](src/image6.png)
+> The acquisition and processing pipeline of eye-tracking data.
+
+![image](src/image7.png)
+> A brief overview of gaze utilization pipelines in medical image analysis.
+
+![image](src/image8.png)
+> A brief overview of gaze utilization pipelines in supporting and interactive tasks.
+
+## 1. Visual Saliency Prediction
 
 * Ultrasound Image Representation Learning by Modeling Sonographer Visual Attention.  
 **Information Processing in Medical Imaging (IPMI) (2019)** 
@@ -62,7 +68,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **IEEE Transactions on Neural Networks and Learning Systems (2025)** 
 [[Paper](https://ieeexplore.ieee.org/abstract/document/10993309/)]
 
-### 1.2 Fixation and Scanpath Prediction
+## 2. Fixation and Scanpath Prediction
 
 * Discovering Salient Anatomical Landmarks by Predicting Human Gaze.  
 **2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI) (2020)** 
@@ -92,7 +98,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Advances in Neural Information Processing Systems (NIPS) (2025)** 
 [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/be7bc8aa38696723cebe296b6122d7e3-Abstract-Conference.html)]
 
-### 1.3 Intent Recognition
+## 3. Intent Recognition
 
 * Can a Machine Learn from Radiologists' Visual Search Behaviour and Their Interpretation of Mammograms—A Deep-Learning Study.  
 **Journal of Digital Imaging (2019)** 
@@ -106,9 +112,8 @@ Right: The distribution of papers across different organs; less frequently studi
 **Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM) (2025)** 
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3746027.3755039)]
 
-## Part 2: Gaze for Medical Image Understanding
 
-### 2.1 Classification
+## 4. Classification
 
 * Multi-Task SonoEyeNet: Detection of Fetal Standardized Planes Assisted by Generated Sonographer Attention Maps.  
 **Medical Image Computing and Computer Assisted Intervention (MICCAI) (2018)** 
@@ -194,7 +199,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Nature Communications (2025)** 
 [[Paper](https://www.nature.com/articles/s41467-023-43095-4)]
 
-### 2.2 Segmentation
+## 5. Segmentation
 
 * Iterative Multi-Path Tracking for Video and Volume Segmentation with Sparse Point Supervision.  
 **Medical Image Analysis (2018)**
@@ -248,7 +253,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Neural Networks (2025)** 
 [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608025007452)]
 
-### 2.3 Detection
+## 6. Detection
 
 * Automatic Lung Nodule Detection Combined With Gaze Information Improves Radiologists' Screening Performance.  
 **IEEE Journal of Biomedical and Health Informatics (2020)** 
@@ -278,7 +283,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Medical Image Computing and Computer Assisted Intervention (MICCAI) (2025)** 
 [[Paper](https://link.springer.com/chapter/10.1007/978-3-032-05169-1_48)]
 
-### 2.4 Self-Supervised Pretraining
+## 7. Self-Supervised Pretraining
 
 * Ultrasound Image Representation Learning by Modeling Sonographer Visual Attention.  
 **Information Processing in Medical Imaging (IPMI) (2019)** 
@@ -308,9 +313,8 @@ Right: The distribution of papers across different organs; less frequently studi
 **Pattern Recognition (2025)** 
 [[Paper](https://www.sciencedirect.com/science/article/pii/S003132032500010X)]
 
-## Part 3: Gaze for Multimodal Learning
 
-### 3.1 Multimodal Alignment 
+## 8. Multimodal Alignment 
 
 * Eye-Gaze Guided Multi-Modal Alignment for Medical Representation Learning.  
 **Advances in Neural Information Processing Systems (NIPS) (2024)** 
@@ -324,7 +328,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **arXiv preprint (2026)** 
 [[Paper](https://arxiv.org/pdf/2603.26049)]
 
-### 3.2 Report Generation
+## 9. Report Generation
 
 * Gaze-Assisted Automatic Captioning of Fetal Ultrasound Videos Using Three-Way Multi-Modal Deep Neural Networks.  
 **Medical Image Analysis (2022)** 
@@ -354,7 +358,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **arXiv preprint (2025)** 
 [[Paper](https://arxiv.org/abs/2507.09097)]
 
-### 3.3 Image Generation
+## 10. Image Generation
 
 * Misjudging the Machine: Gaze May Forecast Human-Machine Team Performance in Surgery.  
 **Medical Image Computing and Computer Assisted Intervention (MICCAI) (2024)** 
@@ -376,7 +380,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Proceedings of the 2025 Symposium on Eye Tracking Research and Applications (ETRA '25) (2025)** 
 [[Paper](https://dl.acm.org/doi/abs/10.1145/3715669.3726789)]
 
-### 3.4 Error Prediction
+## 11. Error Prediction
 
 * Prediction of Radiological Diagnostic Errors from Eye Tracking Data Using Graph Neural Networks and Gaze-Guided Transformers.  
 **Graphs in Biomedical Image Analysis (2025)** 
@@ -394,7 +398,7 @@ Right: The distribution of papers across different organs; less frequently studi
 **Radiology: Artificial Intelligence (2025)** 
 [[Paper](https://pubs.rsna.org/doi/abs/10.1148/ryai.240277)]
 
-## Part 4: Datasets
+## Datasets
 
 * **EGD-CXR**: <br>
 Creation and Validation of a Chest X-Ray Dataset with Eye-Tracking and Report Dictation for AI Development.  
